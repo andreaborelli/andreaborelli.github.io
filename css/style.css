@@ -34,3 +34,74 @@ nav .nav-menu a {
   text-decoration: none;
   border-radius: 5px;
 }
+/* !HERO */
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100vh; /* Adatta in base al layout desiderato */
+  background-color: #ededed;
+  padding: 5px 0;
+}
+.hero p {
+  text-align: end;
+}
+.hero h1 {
+  font-size: 46px;
+  margin: 0;
+  font-family: "Sofia Sans", sans-serif;
+  line-height: 1;
+  text-align: end;
+}
+.hero-top {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  margin-bottom: 30px; /* Aggiunge spazio sotto la parte superiore */
+}
+.hero-top-left h1 {
+  margin: 0; /* Rimuove i margini predefiniti */
+}
+
+.hero-top-left h1 span {
+  display: block; /* Mostra il testo in un blocco separato */
+  text-align: start; /* Allineamento del testo sopra */
+}
+/* Allineamento del testo sopra e sotto */
+.hero-top-left h1 br {
+  display: none; /* Rimuove il break predefinito */
+}
+.small-text {
+  font-size: 32px; /* Imposta la dimensione del carattere più piccola */
+}
+
+.hero-bottom {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.hero-bottom-left {
+  display: flex;
+  flex-direction: column; /* Assicura la disposizione verticale degli elementi */
+}
+.experience-number {
+    font-size: 32px;
+}
+
+.experience-text {
+    font-size: 13px;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 1.4;
+}
+
+.social-icons {
+  display: inline-block;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
