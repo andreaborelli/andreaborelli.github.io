@@ -79,6 +79,7 @@ nav .nav-menu a {
 .hero-bottom {
   display: flex;
   justify-content: space-around;
+  align-items: flex-start;
   padding: 20px;
 }
 
@@ -110,8 +111,34 @@ footer {
   background-color: #333;
   color: white;
   text-align: center;
-  padding: 20px;
+  padding: 5px;
 }
+.dev-creative{
+ font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+.dev-indent {
+    margin-left: 100px; /* Puoi regolare questo valore in base a quanto vuoi indentare */
+
+}
+.creative {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dev-info {
+  display: flex;
+  flex-direction: column; /* Imposta il layout su colonna */
+  text-align: center; /* Allinea il testo al centro */
+}
+
+
+
+
 @media (max-width: 768px) {
     .hero {
     display: flex;
@@ -145,4 +172,23 @@ footer {
   .social-icons {
     margin-top: 26px;
   }
+
+
+.creative {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .dev-indent {
+    margin-left: 40px; /* Aggiungi lo spazio tra i due elementi */
+  }
+
+
+
+.dev-info {
+  display: flex;
+  flex-direction: column; /* Imposta il layout su colonna */
+  text-align: center; /* Allinea il testo al centro */
+}
 }
